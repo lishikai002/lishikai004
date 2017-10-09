@@ -1,0 +1,1 @@
+var gulp=require("gulp"),jsmins=require("gulp-uglify"),concat=require("gulp-concat");gulp.task("jsmin",function(){gulp.src("./gulpfile.js").pipe(jsmins()).pipe(gulp.dest("./dist"))});

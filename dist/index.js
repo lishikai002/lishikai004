@@ -1,0 +1,2 @@
+var gulp=require("gulp"),jsmins=require("gulp-uglify"),concat=require("gulp-concat");gulp.task("jsmin",function(){gulp.src("./gulpfile.js").pipe(jsmins()).pipe(gulp.dest("./dist"))});
+var swiper=new Swiper(".container"),gulp=require("gulp"),jsmins=require("gulp-uglify"),concat=require("gulp-concat");gulp.task("jsmin",function(){gulp.src("./gulpfile.js").pipe(jsmins()).pipe(gulp.dest("./dist"))}),gulp.task("jsmin",function(){gulp.src("./js.js").pipe(jsmins()).pipe(gulp.dest("./dist"))});
